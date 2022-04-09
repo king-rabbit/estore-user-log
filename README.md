@@ -22,6 +22,63 @@
 
 #### 2) 데이터 형태
 
+* 데이터는 다음과 같은 형태로 사용자가 접속해서 행동한 내역을 담고 있습니다.
+
+* 사용자가 언제 접속해서 어떤 유형의 행동을 했는지, 어떤 제품을 조회하고, 장바구니에 넣고, 구매했는지에 대한 정보를 담고 있습니다.
+
+   
+
+<p align="center"><img src="/plots/dataframe_view.png" alt="node.csv" style="zoom:70%;" /></p>
+
+###### 컬럼별 상세정보
+
+* event_time: 사용자의 행동이 발생한 시간 (datetime 컬럼은 이 컬럼을 datetime 유형으로 변환한 것)
+
+* event_type: 행동의 유형으로 'view'(페이지뷰), 'cart'(장바구니 추가), 'purchase'(구매) 중 하나임.
+
+* product_id: 제품 고유 번호
+
+* category_id: 카테고리 고유 번호
+
+* category_code: 카테고리 코드. 대분류-중분류-소분류로 나뉘어져 있으며 '.'으로 구문됨.
+
+* brand: 제품 브랜드
+
+* price: 가격
+
+* user_id: 사용자 아이디
+
+* user_session: 세션 아이디
+
+  
+
+### EDA
+
+
+
+###### 주요 지표
+
+<p align="center">
+  <img src="/plots/monthly_orders.png" alt="node.csv" style="zoom:70%;"  />
+  <img src="/plots/monthly_sessions.png" alt="node.csv" style="zoom:70%;"  />
+</p>
+
+<p align="center">
+  <img src="/plots/monthly_active_users.png" alt="node.csv" style="zoom:70%;"  />
+  <img src="/plots/price_poer_orders.png" alt="node.csv" style="zoom:70%;"  />
+  <img src="/plots/bounce_rate.png" alt="node.csv" style="zoom:70%;"  />
+</p>
+
+
+
+
+
+###### 코호트 분석
+
+<p align="center">
+  <img src="/plots/cohort_analysis.png" alt="node.csv" style="zoom:70%;"  />
+</p>
+
 
 
 
@@ -30,7 +87,15 @@
 
 ### 퍼널 분석
 
+- 고객의 구매 여정을 분석하기 위해 퍼널 분석을 진행했습니다.
 
+- 페이지뷰(view) -> 장바구니(cart) -> 구매(purchase) 순서의 퍼널별로 전환율이 얼마나 되는지 살펴봅니다.
+
+  
+
+<p align="center"><img src="/plots/conversion-funnel.png" alt="node.csv" style="zoom:70%;" /></p>
+
+	###### 분석결과
 
 
 
@@ -42,8 +107,26 @@
 
 
 
+<p align="center"><img src="/plots/inertia.png" alt="node.csv" style="zoom:70%;" /></p>
+
+
+
+<p align="center"><img src="/plots/cluster_recency.png" alt="node.csv" style="zoom:70%;" /> <img src="/plots/cluster_orders.png" alt="node.csv" style="zoom:70%;" /> </p>
+
+<p align="center"><img src="/plots/cluster_price.png" alt="node.csv" style="zoom:70%;" /> <img src="/plots/cluster_brand_pref.png" alt="node.csv" style="zoom:70%;" /></p>
+
+
+
+
+
+
+
 
 
 
 
 ### 고객군별 퍼널 분석
+
+
+
+<p align="center"><img src="/plots/conversion-funnel-by-customer-segmentation.png" alt="node.csv" style="zoom:70%;" /></p>
