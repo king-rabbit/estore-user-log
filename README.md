@@ -59,15 +59,18 @@
 ###### 주요 지표
 
 <p float="left" align="center">
-  <img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:70%;" width="30%"/> 
-  <img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:70%;"  width="30%"/>
+  <img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:70%;" width="40%"/> 
+  <img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:70%;"  width="40%"/>
 </p>
 
 <p float="left" align="center">
-  <img src="/plots/monthly_active_users.png" alt="node.csv" style="zoom:70%;" width="30%" /> 
-  <img src="/plots/price_per_orders.png" alt="node.csv" style="zoom:70%;" width="30%" /> 
-  <img src="/plots/bounce_rate.png" alt="node.csv" style="zoom:70%;"
-       width="30%"/>
+  <img src="/plots/monthly_active_users.png" alt="monthly_active_users" style="zoom:70%;" width="40%" /> 
+  <img src="/plots/price_per_orders.png" alt="price_per_orders" style="zoom:70%;" width="40%" /> 
+</p>
+
+<p  align="left">
+  <img src="/plots/bounce_rate.png" alt="bounce_rate.csv" style="zoom:70%;"
+       width="40%"/>
 </p>
 
 
