@@ -64,9 +64,10 @@
 </p>
 
 <p float="left" align="center">
-  <img src="/plots/monthly_active_users.png" alt="node.csv" style="zoom:70%;"  /> 
-  <img src="/plots/price_per_orders.png" alt="node.csv" style="zoom:70%;"  /> 
-  <img src="/plots/bounce_rate.png" alt="node.csv" style="zoom:70%;"  />
+  <img src="/plots/monthly_active_users.png" alt="node.csv" style="zoom:70%;" width="30%" /> 
+  <img src="/plots/price_per_orders.png" alt="node.csv" style="zoom:70%;" width="30%" /> 
+  <img src="/plots/bounce_rate.png" alt="node.csv" style="zoom:70%;"
+       width="30%"/>
 </p>
 
 
@@ -112,10 +113,10 @@
 
 
 <p float="left" align="center">
-  <img src="/plots/cluster_recency.png" alt="cluster_recency" style="zoom:70%;"  /> 
-  <img src="/plots/cluster_orders.png" alt="cluster_orders" style="zoom:70%;"  /> 
-  <img src="/plots/cluster_price.png" alt="cluster_price" style="zoom:70%;"  />
-   <img src="/plots/cluster_brand_pref.png" alt="cluster_brand_pref" style="zoom:70%;"  />
+  <img src="/plots/cluster_recency.png" alt="cluster_recency" style="zoom:70%;" width="24%" /> 
+  <img src="/plots/cluster_orders.png" alt="cluster_orders" style="zoom:70%;" width="24%"  /> 
+  <img src="/plots/cluster_price.png" alt="cluster_price" style="zoom:70%;" width="24%"  />
+   <img src="/plots/cluster_brand_pref.png" alt="cluster_brand_pref" style="zoom:70%;" width="24%"  />
 </p>
 
 
