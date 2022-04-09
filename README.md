@@ -68,7 +68,7 @@
   <img src="/plots/price_per_orders.png" alt="price_per_orders" style="zoom:70%;" width="40%" /> 
 </p>
 
-<p  align="left">
+<p float="left" align="left">
   <img src="/plots/bounce_rate.png" alt="bounce_rate.csv" style="zoom:70%;"
        width="40%"/>
 </p>
