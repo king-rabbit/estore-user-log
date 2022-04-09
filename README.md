@@ -59,8 +59,8 @@
 ###### 주요 지표
 
 <p float="left" align="center">
-  <img src="/plots/monthly_orders.png" alt="node.csv" style="zoom:70%;"  /> 
-  <img src="/plots/monthly_sessions.png" alt="node.csv" style="zoom:70%;"  />
+  <img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:70%;" width="30%"/> 
+  <img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:70%;"  width="30%"/>
 </p>
 
 <p float="left" align="center">
