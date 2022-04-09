@@ -28,7 +28,7 @@
 
    
 
-<p align="center"><img src="/plots/dataframe_view.png" alt="node.csv" style="zoom:70%;" /></p>
+<p align="center"><img src="/plots/dataframe_view.png" alt="dataframe" style="zoom:70%;" /></p>
 
 ###### 컬럼별 상세정보
 
@@ -58,14 +58,14 @@
 
 ###### 주요 지표
 
-<p align="center">
-  <img src="/plots/monthly_orders.png" alt="node.csv" style="zoom:70%;"  />
+<p float="left" align="center">
+  <img src="/plots/monthly_orders.png" alt="node.csv" style="zoom:70%;"  /> 
   <img src="/plots/monthly_sessions.png" alt="node.csv" style="zoom:70%;"  />
 </p>
 
-<p align="center">
-  <img src="/plots/monthly_active_users.png" alt="node.csv" style="zoom:70%;"  />
-  <img src="/plots/price_poer_orders.png" alt="node.csv" style="zoom:70%;"  />
+<p float="left" align="center">
+  <img src="/plots/monthly_active_users.png" alt="node.csv" style="zoom:70%;"  /> 
+  <img src="/plots/price_per_orders.png" alt="node.csv" style="zoom:70%;"  /> 
   <img src="/plots/bounce_rate.png" alt="node.csv" style="zoom:70%;"  />
 </p>
 
@@ -93,7 +93,7 @@
 
   
 
-<p align="center"><img src="/plots/conversion-funnel.png" alt="node.csv" style="zoom:70%;" /></p>
+<p align="center"><img src="/plots/conversion-funnel.png" alt="conversion-funnel" style="zoom:70%;" /></p>
 
 	###### 분석결과
 
@@ -107,17 +107,16 @@
 
 
 
-<p align="center"><img src="/plots/inertia.png" alt="node.csv" style="zoom:70%;" /></p>
+<p align="center"><img src="/plots/inertia.png" alt="inertia" style="zoom:70%;" /></p>
 
 
 
-<p align="center"><img src="/plots/cluster_recency.png" alt="node.csv" style="zoom:70%;" /> <img src="/plots/cluster_orders.png" alt="node.csv" style="zoom:70%;" /> </p>
-
-<p align="center"><img src="/plots/cluster_price.png" alt="node.csv" style="zoom:70%;" /> <img src="/plots/cluster_brand_pref.png" alt="node.csv" style="zoom:70%;" /></p>
-
-
-
-
+<p float="left" align="center">
+  <img src="/plots/cluster_recency.png" alt="cluster_recency" style="zoom:70%;"  /> 
+  <img src="/plots/cluster_orders.png" alt="cluster_orders" style="zoom:70%;"  /> 
+  <img src="/plots/cluster_price.png" alt="cluster_price" style="zoom:70%;"  />
+   <img src="/plots/cluster_brand_pref.png" alt="cluster_brand_pref" style="zoom:70%;"  />
+</p>
 
 
 
@@ -129,4 +128,4 @@
 
 
 
-<p align="center"><img src="/plots/conversion-funnel-by-customer-segmentation.png" alt="node.csv" style="zoom:70%;" /></p>
+<p align="center"><img src="/plots/conversion-funnel-by-customer-segmentation.png" alt="conversion-funnel" style="zoom:70%;" /></p>
