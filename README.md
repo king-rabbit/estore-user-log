@@ -68,12 +68,16 @@
   <img src="/plots/price_per_orders.png" alt="price_per_orders" style="zoom:70%;" width="40%" /> 
 </p>
 
-<p float="left" align="left">
-  <img src="/plots/bounce_rate.png" alt="bounce_rate.csv" style="zoom:70%;"
-       width="40%"/>
+<p float="left" align="center">
+  <img src="/plots/bounce_rate.png" alt="bounce_rate.csv" style="zoom:70%;" width="40%"/>
+  <img src="/plots/price_per_user.png" alt="bounce_rate.csv" style="zoom:70%;" width="40%"/>
 </p>
 
 
+
+* 월별 세션 수는 2020년 10월 이후 증가하고 있지 않지만 MAU와 주문 건수는 장기적으로 증가하는 추세입니다.
+* 건단가와 객단가가 모두 증가하고 있어 신규 고객 유치 시 매출이 증가할 것으로 예상됩니다.
+* 첫 페이지에서 유저가 이탈하는 반송율 역시 증가하고 있어 랜딩 페이지 개선이 필요할 것으로 보입니다. 
 
 
 
@@ -83,7 +87,8 @@
   <img src="/plots/cohort_analysis.png" alt="node.csv" style="zoom:70%;"  />
 </p>
 
-
+* M-1 리텐션이 최대 6%이며, 코호트간 비교했을 때 시간이 지나면서 점차 하락하는 추세입니다.
+* 동일 코호트에서도 시간이 지날수록 리텐션 수치가 떨어지고 있어 서비스의 흡입력이 높지 않은 것으로 판단됩니다.
 
 
 
