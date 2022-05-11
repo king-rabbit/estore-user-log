@@ -58,25 +58,32 @@
 
 ###### 주요 지표
 
-<div  style="display: inline-block; ">
-  <figcaption>월별 주문 건수</figcaption><img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:50%; display: inline-block; " width="35%"/> 
+<div align="center">
+  <div  align="center">
+    월별 주문 건수 / 월별 세션 수
+	</div>
+ <img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:70%;" width="40%"/> 
+<img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:70%;" width="40%"/>
 </div>
-<div  style="display: inline-block; ">
-  <figcaption>월별 세션 수</figcaption><img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:50%; display: inline-block; " width="35%"/>
-</div>
 
 
 
-
-<p float="left" align="center">
+<div align="center">
+  <div  align="center">
+    MAU / 건단가
+	</div>
   <img src="/plots/monthly_active_users.png" alt="monthly_active_users" style="zoom:70%;" width="40%" /> 
   <img src="/plots/price_per_orders.png" alt="price_per_orders" style="zoom:70%;" width="40%" /> 
-</p>
+</div>
 
-<p float="left" align="center">
-  <img src="/plots/bounce_rate.png" alt="bounce_rate.csv" style="zoom:70%;" width="40%"/>
-  <img src="/plots/price_per_user.png" alt="bounce_rate.csv" style="zoom:70%;" width="40%"/>
-</p>
+<div align="center">
+  <div  align="center">
+    반송률 / 객단가
+	</div>
+  <img src="/plots/bounce_rate.png" alt="bounce_rate" style="zoom:70%;" width="40%"/>
+  <img src="/plots/price_per_user.png" alt="price_per_user" style="zoom:70%;" width="40%"/>
+</div>
+
 
 
 
