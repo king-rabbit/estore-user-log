@@ -58,9 +58,11 @@
 
 ###### 주요 지표
 
-<div style="display:flex;">
-  <figure><figcaption>월별 주문 건수</figcaption><img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:50%;" width="35%"/> </figure>
-   <figure><figcaption>월별 세션 수</figcaption><img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:50%;  " width="35%"/></figure>
+<div  style="display: inline-block; ">
+  <figcaption>월별 주문 건수</figcaption><img src="/plots/monthly_orders.png" alt="monthly_orders" style="zoom:50%; display: inline-block; " width="35%"/> 
+</div>
+<div  style="display: inline-block; ">
+  <figcaption>월별 세션 수</figcaption><img src="/plots/monthly_sessions.png" alt="monthly_sessions" style="zoom:50%; display: inline-block; " width="35%"/>
 </div>
 
 
