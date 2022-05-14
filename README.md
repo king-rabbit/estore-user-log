@@ -10,6 +10,22 @@
 
 
 
+### 리포지토리 구성
+
+- EDA.ipynb: 주문 건수, 세션 수 등 기초 지표 탐색
+
+- funnel_analysis.ipynb : 고객 분류 및 퍼널 분석
+
+- funnel.ipynb : 퍼널 분석
+
+- churn.ipynb : 이탈률 분석
+
+- estore-summary.pdf : 프로젝트 분석 보고서
+
+- /plots: 그래프 등 이미지 파일
+
+  
+
 ### 데이터
 
 #### 1) 데이터 출처
@@ -50,6 +66,8 @@
 
 * user_session: 세션 아이디
 
+  
+  
   
 
 ### EDA
